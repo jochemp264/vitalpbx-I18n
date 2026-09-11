@@ -1,6 +1,0 @@
-menu.domotic = Domotica
-menu.domotic_conf = Configuratie
-menu.domotic_units = Units
-menu.domotic_devices = Apparaten
-menu.domotic_scenes = Scènes
-menu.domotic_notifications = Meldingen
