@@ -1,0 +1,102 @@
+menu.pjsip_settings = PJSIP-instellingen
+module.pjsip_settings = PJSIP-instellingen
+pjsip_settings.general = Algemeen
+pjsip_settings.debug = Debug
+pjsip_settings.debug.tooltip = SIP-debuglogging in- of uitschakelen.
+pjsip_settings.timer_t1 = Timer T1
+pjsip_settings.timer_t1.tooltip = Timer T1 is de basis om te bepalen hoe lang moet worden gewacht voordat verzoeken zonder antwoord opnieuw worden verzonden bij een onbetrouwbaar transport (bijv. UDP).
+pjsip_settings.timer_b = Timer B
+pjsip_settings.timer_b.tooltip = Timer B bepaalt de maximale wachttijd na het verzenden van een INVITE-verzoek voordat de transactie wordt beëindigd.
+pjsip_settings.disable_tcp_switch = TCP-switch uitschakelen
+pjsip_settings.disable_tcp_switch.tooltip = Automatisch schakelen van UDP naar TCP-transports uitschakelen als het uitgaande verzoek te groot is.
+pjsip_settings.bind = Bind
+pjsip_settings.bindaddr = Adres
+pjsip_settings.bindport = Poort
+pjsip_settings.bind.tooltip = IP-adres en optionele poort om aan te binden voor dit transport.
+pjsip_settings.tlsbind = TLS-bind
+pjsip_settings.tlsbind.tooltip = IP-adres en optionele poort via TLS-protocol om aan te binden voor dit transport.
+pjsip_settings.certificate = Certificaat
+pjsip_settings.certificate.tooltip = Certificaat voor TLS-verbindingen
+pjsip_settings.verify_client = Client verifiëren
+pjsip_settings.verify_client.tooltip = Verificatie van het clientcertificaat vereisen (ALLEEN TLS)
+pjsip_settings.ssl_method = SSL-methode
+pjsip_settings.ssl_method.tooltip = Methode van SSL-transport (ALLEEN TLS)
+pjsip_settings.verify_server = Server verifiëren
+pjsip_settings.verify_server.tooltip = Verificatie van het servercertificaat vereisen (ALLEEN TLS)
+pjsip_settings.local_net = Lokaal netwerk
+pjsip_settings.local_net.tooltip =
+	Netwerken die als lokaal worden beschouwd (gebruikt voor NAT); dit moet in CIDR- of dotted-decimal-formaat zijn met IP en masker gescheiden
+    door een slash ('/'). bijv.: 10.8.0.0/24. U kunt meerdere netwerken invoeren, gescheiden door een komma.
+pjsip_settings.external_media_address = Extern media-adres
+pjsip_settings.external_media_address.tooltip = Extern IP-adres dat bij RTP-afhandeling wordt gebruikt.
+pjsip_settings.external_signaling_address = Extern signaaladres
+pjsip_settings.external_signaling_address.tooltip = Extern adres voor SIP-signaling.
+pjsip_settings.nat_settings = NAT-instellingen
+pjsip_settings.tonezone = {sip_settings.tonezone}
+pjsip_settings.tonezone.tooltip = Stelt in welke landindicaties worden gebruikt voor kanalen die voor PJSIP-apparaten en -trunks worden aangemaakt.
+pjsip_settings.codecs = Codecs
+pjsip_settings.codecs.tooltip =
+	Stelt in welke codecs worden gebruikt voor kanalen die voor PJSIP-apparaten en -trunks worden aangemaakt. Deze parameter geldt alleen als de trunks of apparaten
+	geen eigen codecs hebben gedefinieerd.
+pjsip_settings.mwi_settings = MWI-instellingen
+pjsip_settings.mwi_tps_queue_high = Taskprocessor-wachtrij hoog
+pjsip_settings.mwi_tps_queue_high.tooltip =
+	Op een zwaar beladen systeem moet u mogelijk de limieten van de taskprocessor-wachtrij aanpassen. Als een taskprocessor-wachtrij
+	het hoge waterniveau bereikt, stopt pjsip met het verwerken van nieuwe verzoeken totdat de waarschuwing is opgeheven. De waarschuwing
+	wordt opgeheven wanneer alle waarschuwende taskprocessor-wachtrijen tot hun lage waterniveau zijn gedaald.
+pjsip_settings.mwi_tps_queue_low = Taskprocessor-wachtrij laag
+pjsip_settings.mwi_tps_queue_low.tooltip =
+	Op een zwaar beladen systeem moet u mogelijk de limieten van de taskprocessor-wachtrij aanpassen. Als een taskprocessor-wachtrij
+	het hoge waterniveau bereikt, stopt pjsip met het verwerken van nieuwe verzoeken totdat de waarschuwing is opgeheven. De waarschuwing
+	wordt opgeheven wanneer alle waarschuwende taskprocessor-wachtrijen tot hun lage waterniveau zijn gedaald. Stel in op -1 zodat het lage
+	waterniveau 90% van het hoge waterniveau is.
+pjsip_settings.mwi_disable_initial_unsolicited = Initiële MWI uitschakelen
+pjsip_settings.mwi_disable_initial_unsolicited.tooltip =
+	Wanneer de initiële ongevraagde MWI-meldingen bij opstarten zijn ingeschakeld, worden de initiële meldingen bij
+	opstarten verzonden. Als u veel eindpunten (duizenden) hebt die ongevraagde MWI gebruiken, kunt u overwegen
+	de initiële opstartmeldingen uit te schakelen. Wanneer de initiële ongevraagde MWI-meldingen bij opstarten zijn uitgeschakeld,
+	starten de meldingen bij de volgende contactupdate van het eindpunt.
+pjsip_settings.keep_alive_interval = Keep-alive-interval
+pjsip_settings.keep_alive_interval.tooltip =
+	Het interval (in seconden) om keepalives te verzenden naar actieve verbindingsgeoriënteerde transports.
+pjsip_settings.contact_expiration_check_interval = Interval controle vervaldatum
+pjsip_settings.contact_expiration_check_interval.tooltip =
+	Het interval (in seconden) om te controleren op verlopen contacten.
+pjsip_settings.max_initial_qualify_time =  Max. initiële kwalificatietijd
+pjsip_settings.max_initial_qualify_time.tooltip =
+	De maximale tijd vanaf opstarten dat kwalificaties op alle contacten moeten worden geprobeerd. Als dit groter is dan de
+	Qualify Frequency voor een AOR, wordt in plaats daarvan Qualify Frequency gebruikt.
+pjsip_settings.unidentified_request_period = Periode ongeïdentificeerde verzoeken
+pjsip_settings.unidentified_request_period.tooltip =
+	Het aantal seconden waarover ongeïdentificeerde verzoeken worden opgeteld. Als tijdens de periode voor ongeïdentificeerde verzoeken
+	ongeïdentificeerde verzoeken worden ontvangen, wordt een beveiligingsgebeurtenis gegenereerd.
+pjsip_settings.unidentified_request_count = Aantal ongeïdentificeerde verzoeken
+pjsip_settings.unidentified_request_count.tooltip = Het aantal ongeïdentificeerde verzoeken van één IP dat is toegestaan.
+pjsip_settings.unidentified_request_prune_interval = Snoeinterval ongeïdentificeerde verzoeken
+pjsip_settings.unidentified_request_prune_interval.tooltip =
+		Het interval waarop ongeïdentificeerde verzoeken die ouder zijn dan tweemaal de periode voor ongeïdentificeerde verzoeken worden gesnoeid.
+pjsip_settings.language.tooltip = Standaardtaal die wordt gebruikt voor kanalen die door PJSIP-eindpunten worden aangemaakt
+pjsip_settings.allow_reload = Herladen van transports toestaan
+pjsip_settings.allow_reload.tooltip =
+	Bepaalt of PJSIP-transports opnieuw worden geladen wanneer res_pjsip wordt herladen. Het wordt aanbevolen deze optie op "nee" te zetten
+	omdat het herladen van een transport lopende gesprekken kan verstoren.
+pjsip_settings.endpoint_identifier_order = Volgorde eindpuntidentificatie
+pjsip_settings.endpoint_identifier_order.tooltip =
+	Met deze optie kunt u een lijst van namen van eindpuntidentificatoren definiëren. De volgorde van de lijst is de volgorde waarin de
+	benoemde identificatoren het verzoek controleren. Standaard: <b>"IP,Username,Anonymous"</b>
+pjsip_settings.endpoint_identifier_order.ip = IP
+pjsip_settings.endpoint_identifier_order.username = Gebruikersnaam
+pjsip_settings.endpoint_identifier_order.anonymous = Anoniem
+pjsip_settings.endpoint_identifier_order.auth_username = Authenticatiegebruikersnaam
+pjsip_settings.endpoint_identifier_order.header = Header
+pjsip_settings.ms_signaling_address = MS Teams-domein
+pjsip_settings.ms_signaling_address.tooltip = Het domein dat wordt verzonden bij het bellen via een trunk met het transport "TLS+MSTeams." bijv.: <b>sip.mypbx.com</b>
+pjsip_settings.ms_signaling_address.invalid.msg = Het opgegeven MS-domein is ongeldig. Geef een geldige FQDN op.
+pjsip_settings.allow_wildcard_certs = Wildcardcertificaten toestaan
+pjsip_settings.allow_wildcard_certs.tooltip =
+    In combinatie met "Server verifiëren" staan wildcards toe indien ingeschakeld, d.w.z. '.' in certificaten voor common en subject
+    alt names van type DNS voor TLS-transporttypes. Namen moeten met de wildcard beginnen. Gedeeltelijke wildcards, bijv. 'f.example.com'
+    en 'foo..com' zijn niet toegestaan. Namen matchen ook slechts één niveau, wat betekent dat '.example.com' overeenkomt met 'foo.example.com',
+    maar niet met 'foo.bar.example.com'.
+pjsip_settings.external_signaling_port = Externe signaling-poort
+pjsip_settings.external_signaling_port.tooltip = Externe poort voor SIP-signaling.

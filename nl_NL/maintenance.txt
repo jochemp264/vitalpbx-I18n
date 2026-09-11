@@ -1,0 +1,59 @@
+maintenance = Onderhoud
+menu.maintenance = {maintenance}
+module.maintenance = {maintenance}
+maintenance.general = {vitalpbx.general}
+maintenance.cdr_preservation = Oudste CDR verwijderen
+maintenance.cdr_preservation.tooltip =
+	Hiermee kunt u het maximale aantal dagen definiëren dat CDR bewaard moet blijven. De CDR die ouder is
+    dan het hier gedefinieerde aantal dagen wordt verwijderd
+maintenance.recordings_preservation = Oudste opnamen verwijderen
+maintenance.recordings_preservation.tooltip =
+	Hiermee kunt u het maximale aantal dagen definiëren dat opnamen bewaard moeten blijven. De opnamen die ouder zijn
+	dan het hier gedefinieerde aantal dagen worden verwijderd
+maintenance.recordings_min_duration = Korte opnamen verwijderen
+maintenance.recordings_min_duration.tooltip =
+	Hiermee kunt u de minimale duur in seconden definiëren vanaf wanneer een opname als te kort wordt beschouwd en wordt verwijderd
+maintenance.convert_recordings = Opnamen converteren
+maintenance.convert_recordings.tooltip = Conversie van gespreksopnamen naar MP3 in- of uitschakelen
+maintenance.schedule = Planning
+maintenance.schedule.tooltip =
+	Hiermee kunt u de planning definiëren waarop het onderhoud van de PBX wordt uitgevoerd (conversie van opnamen,
+	opschonen van opnamen en CDR, enz.). Als er geen planning is geselecteerd, worden alle onderhoudsopties uitgeschakeld
+maintenance.execute = Nu uitvoeren
+maintenance.confirm_mcp.title = Onderhoud bevestigen
+maintenance.confirm_mcp =
+	Weet u zeker dat u het onderhoud nu wilt uitvoeren? <br> Dit kan enkele minuten duren, vooral als u
+	veel opnamen moet converteren
+maintenance.executed = Het onderhoud wordt op de achtergrond uitgevoerd
+maintenance.no_license_notification =
+	De volgende functies: "Oudste opnamen verwijderen" en "Opnamen converteren" werken niet totdat u deze add-on
+	activeert met een geldige licentie.
+maintenance.enabled = Ingeschakeld
+maintenance.enabled.tooltip =
+	Hiermee kunt u het PBX-onderhoud in- of uitschakelen.
+maintenance.validation.enabled_without_cron = Het onderhoud is ingeschakeld maar er is geen cron-profiel geselecteerd
+maintenance.tenant = Tenant
+maintenance.tenant.tooltip = Hiermee kunt u de tenant selecteren waarop de onderhoudsconfiguraties worden toegepast
+maintenance.mcp.invalid_tenant = Het onderhoud kan niet worden uitgevoerd omdat u ongeldige informatie hebt opgegeven
+maintenance.voicemail_preservation = Oudste voicemails verwijderen
+maintenance.voicemail_preservation.tooltip =
+	Hiermee kunt u het maximale aantal dagen definiëren dat voicemailopnamen bewaard moeten blijven. De voicemailopnamen
+	die ouder zijn dan het hier gedefinieerde aantal dagen worden verwijderd
+maintenance.conversion_quality = Audiokwaliteit
+maintenance.conversion_quality.tooltip =
+	De audiokwaliteit die wordt toegepast bij conversie van WAV naar MP3. Hogere kwaliteit levert betere audio op, maar gebruikt meer ruimte
+	op de harde schijf; lagere kwaliteit levert kleinere audiobestanden op, maar de kwaliteit neemt af.
+maintenance.good = Goed ({0}k)
+maintenance.medium = Gemiddeld ({0}k)
+maintenance.best = Beste ({0}k)
+maintenance.high = Hoog ({0}k)
+maintenance.sms_preservation = Oudste SMS verwijderen
+maintenance.sms_preservation.tooltip =
+    Indien gedefinieerd, worden SMS-berichten die ouder zijn dan het hier opgegeven aantal dagen verwijderd.
+    Om het verwijderen van SMS uit te schakelen, laat u dit veld leeg of zet u het op nul.
+maintenance.logger_preservation = Oudste loggebeurtenissen verwijderen
+maintenance.logger_preservation.tooltip =
+    Hiermee kunt u het maximale aantal dagen definiëren dat loggebeurtenissen bewaard moeten blijven. De gebeurtenissen
+    die ouder zijn dan het hier gedefinieerde aantal dagen worden verwijderd.
+
+

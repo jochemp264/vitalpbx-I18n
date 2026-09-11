@@ -1,0 +1,74 @@
+hot_desking = Hot desking
+hot_desking.channel_id = Kanaal
+hot_desking.channel_id.tooltip = FXS-kanaal voor dit apparaat.
+hot_desking.codecs = Codecs
+hot_desking.codecs.tooltip = Lijst van toegestane codecs. De volgorde waarin de codecs staan, bepaalt hun voorkeursvolgorde. Als u minstens één codec selecteert, wordt ook de parameter "disallow=all" gegenereerd.
+hot_desking.delete = Verwijderen
+hot_desking.delete.tooltip = Weet u zeker dat u dit record %s wilt verwijderen?
+hot_desking.deny = Weigeren
+hot_desking.deny.invalid = Weigeren is ongeldig. Typ een IP-adres met subnetmasker. U kunt CIDR-notatie gebruiken. (Voorbeeld: 192.168.40.38/16)
+hot_desking.deny.tooltip = In een user/peer-definitie kunt u het verkeer van en naar deze peer beperken tot een bepaald IP of netwerk. (Voorbeeld: deny=192.168.40.38/255.255.255.255 weigert verkeer van dit IP-adres).
+hot_desking.dev_description = Apparaatbeschrijving
+hot_desking.dev_description.tooltip = Een korte beschrijving om dit apparaat te identificeren.
+hot_desking.digit_map = Cijfertoewijzing
+hot_desking.digit_map.tooltip = De cijfertoewijzing die voor deze lijn wordt gebruikt.
+hot_desking.digium_phone_settings = Digium-telefooninstellingen
+hot_desking.max_contacts = Max. contacten
+hot_desking.max_contacts.tooltip = Maximum aantal contacten/telefoonapparaten dat aan een PJSIP-apparaat kan worden gekoppeld
+hot_desking.dtmfmode = DTMF-modus
+hot_desking.dtmfmode.auto.tooltip = Gebruik rfc2833|rfc4733 indien aangeboden, anders in-band
+hot_desking.dtmfmode.inband.tooltip = Inband-audio (vereist 64 kbit-codec -alaw, ulaw)
+hot_desking.dtmfmode.info.tooltip = SIP INFO-berichten (application/dtmf-relay)
+hot_desking.dtmfmode.shortinfo.tooltip = SIP INFO-berichten (application/dtmf). (Alleen SIP)
+hot_desking.dtmfmode.tooltip = Standaard DTMF-modus voor het verzenden van DTMF. Standaard rfc2833|rfc4733
+hot_desking.general = Algemeen
+hot_desking.language = Taal
+hot_desking.language.tooltip = Geeft de taalinstelling op die voor dit apparaat wordt gebruikt. Alle prompts die specifiek voor de gebruiker zijn, worden in de geselecteerde taal afgespeeld, mits de taal is geïnstalleerd en spraakprompts voor die taal op uw server aanwezig zijn
+hot_desking.nat = NAT
+hot_desking.nat.auto_comedia.tooltip = Stel de comedia-optie in als Asterisk NAT detecteert.
+hot_desking.nat.auto_force.tooltip = Stel de force_rport-optie in als Asterisk NAT detecteert.
+hot_desking.nat.comedia.tooltip = Media verzenden naar de poort waarvan Asterisk deze heeft ontvangen, ongeacht wat de SDP zegt.
+hot_desking.nat.force.tooltip = Doe alsof er een rport-parameter was, ook als die er niet was.
+hot_desking.nat.no.tooltip = Geen speciale NAT-afhandeling anders dan RFC3581.
+hot_desking.nat.tooltip = NAT (Network Address Translation) is een technologie die meestal door firewalls en routers wordt gebruikt om meerdere apparaten op een LAN met "privé"-IP-adressen één openbaar IP-adres te laten delen. Een privé-IP-adres is een adres dat alleen vanaf het LAN kan worden bereikt, niet vanaf internet buiten het LAN.
+hot_desking.permit = Toestaan
+hot_desking.permit.invalid = Toestaan is ongeldig. Typ een IP-adres met subnetmasker. U kunt CIDR-notatie gebruiken. (Voorbeeld: 192.168.40.38/16)
+hot_desking.permit.tooltip = In een user/peer-definitie kunt u het verkeer van en naar deze peer beperken tot een bepaald IP of netwerk. (Voorbeeld: permit=192.168.40.0/255.255.255.0 staat verkeer van dit netwerk toe).
+hot_desking.profile_id-fxs = Profiel
+hot_desking.profile_id-fxs.tooltip = Instellingenprofiel voor FXS-apparaten
+hot_desking.profile_id-iax = Profiel
+hot_desking.profile_id-iax.tooltip = Instellingenprofiel voor IAX2-apparaten
+hot_desking.profile_id-sip = Profiel
+hot_desking.profile_id-sip.tooltip = Instellingenprofiel voor SIP-apparaten
+hot_desking.profile_id-pjsip = Profiel
+hot_desking.profile_id-pjsip.tooltip = Instellingenprofiel voor PJSIP-apparaten
+hot_desking.ring_device = Apparaat laten overgaan
+hot_desking.ring_device.tooltip = Bepaalt of inkomende gesprekken het apparaat moeten laten overgaan.
+hot_desking.secret = Wachtwoord
+hot_desking.secret.tooltip = Wachtwoord dat aan dit apparaat is gekoppeld
+hot_desking.technology = Technologie
+hot_desking.technology.tooltip = Type technologie voor dit apparaat
+hot_desking.user = Gebruikersapparaat
+hot_desking.user_unique.invalid = Gebruikersapparaat bestaat al
+hot_desking.user.invalid = Voer een geldig gebruikersapparaat in
+hot_desking.user.invalid.spaces = Gebruikersapparaat mag geen spaties bevatten
+hot_desking.user.tooltip = Gebruiker voor dit apparaat.
+hot_desking.voicemail_uri = Voicemail-URI
+hot_desking.voicemail_uri.tooltip = Als de Msgs-knop van de telefoon een SIP-URI moet bellen in plaats van de visuele voicemail-app te openen, geeft deze optie aan welke URI de Msgs-knop moet bellen. Deze optie instellen op de primaire lijn van een telefoon schakelt visuele voicemail uit.
+menu.hot_desking = Hot desking
+module.hot_desking = Hot desking
+hot_desking.profile_id = Profiel
+hot_desking.profile_id.tooltip = Profiel met gemeenschappelijke parameters voor de geselecteerde technologie.
+hot_desking.generate_qr = Mobiele QR genereren
+hot_desking.generate_qr.tooltip = Indien ingeschakeld, kunt u de QR-code scannen met de applicatie <b>{0}</b>
+hot_desking.dispatchable_location = Meldlocatie
+hot_desking.dispatchable_location.tooltip =
+	Hiermee kunt u de meldlocatie voor dit apparaat selecteren of definiëren. Deze informatie wordt
+	opgenomen in meldingen die worden verzonden wanneer vanaf dit apparaat een noodoproep wordt gedaan.
+hot_desking.nat.default.tooltip = Neemt de NAT-configuraties over van de globale SIP-instellingen (Instellingen >> Technologie-instellingen >> SIP-instellingen)
+hot_desking.vitxi_client = WebRTC-client
+hot_desking.vitxi_client.tooltip =
+	Indien ingeschakeld, kan dit apparaat worden gebruikt voor de WebRTC-applicatie.
+hot_desking.dtmfmode.auto_info.tooltip = DTMF wordt verzonden als RFC 4733 als de andere kant dit ondersteunt, anders als SIP INFO. (Alleen PJSIP)
+hot_desking.mobile_client = Mobiele client
+hot_desking.mobile_client.tooltip = Indien ja, kunt u een QR-code genereren om dit eindpunt met de Connect-app te configureren.

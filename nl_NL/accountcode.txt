@@ -1,0 +1,14 @@
+accountcode = Klantcodes
+accountcode.code = Klantcode
+accountcode.code.invalid = Klantcode is ongeldig. Gebruik alleen cijfers en het "*" (sterretje) teken.
+accountcode.code.tooltip = Klantcodenummer.
+accountcode.description = Beschrijving
+accountcode.description.tooltip = Korte beschrijving om deze klantcode te identificeren.
+accountcode.enabled = Ingeschakeld
+accountcode.enabled.tooltip = Deze klantcode in- of uitschakelen.
+accountcode.general = Algemeen
+accountcode.not_found = Klantcode niet gevonden.
+accountcode.search = Zoeken
+module.accountcode = Klantcodes
+menu.account_codes = Klantcodes
+accountcode.duplicated_code = De opgegeven code is al in gebruik

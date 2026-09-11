@@ -1,0 +1,15 @@
+speeddial = Snelkeuze
+menu.speed_dialing = {speeddial}
+module.speeddial = {speeddial}
+menu.speeddial = {speeddial}
+speeddial.class_of_service_id = Serviceklasse
+speeddial.class_of_service_id.tooltip = Serviceklasse die wordt gebruikt om deze snelkeuze te bellen
+speeddial.description = Beschrijving
+speeddial.description.tooltip = Naam die deze snelkeuze identificeert
+speeddial.dnumber = Bestemmingsnummer
+speeddial.dnumber.tooltip = Te bellen nummer.
+speeddial.extension = Snelkeuzecode
+speeddial.extension.invalid = Snelkeuzecode is ongeldig. Gebruik alleen cijfers en het "*" (sterretje) teken.
+speeddial.extension.tooltip = Code om deze snelkeuze te activeren. De code moet uniek zijn in het systeem, d.w.z. nergens anders in het systeem gebruikt worden.
+speeddial.general = Algemeen
+speeddial.invalid.already_exists = Ongeldig snelkeuzenummer {0}. Het nummer is in gebruik door module {1}.

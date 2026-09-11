@@ -1,0 +1,40 @@
+menu.bulk_extensions = Toestellen in bulk
+module.bulk_extensions = {menu.bulk_extensions}
+bulk_extensions.general = {vitalpbx.general}
+bulk_extensions.range = Toestelbereik
+bulk_extensions.range.tooltip =
+	Definieert het bereik van toestellen dat u wilt aanmaken, bijv.: van 1000 tot 1400.
+	<b>Als een van de toestellen in het bereik al bestaat, wordt deze overgeslagen</b>.
+bulk_extensions.cos = {extensions.class_of_service_id}
+bulk_extensions.cos.tooltip = {extensions.class_of_service_id.tooltip}
+bulk_extensions.dev_technology = Apparaattechnologie
+bulk_extensions.dev_technology.tooltip  = Definieert de technologie van het apparaat dat aan elk toestel wordt toegewezen
+bulk_extensions.vm_enabled = Voicemail ingeschakeld
+bulk_extensions.recording_types = Gesprekken opnemen
+bulk_extensions.recording_types.tooltip = Hiermee kunt u selecteren welke soorten gesprekken worden opgenomen
+bulk_extensions.vm_password.tooltip =
+	Hiermee kunt u het voicemailwachtwoord voor elk toestel definiëren; als dit leeg blijft, is het wachtwoord het toestelnummer.
+	U kunt het gereserveerde woord <b>&#123;RANDOM&#125;</b> gebruiken om een willekeurig wachtwoord te genereren.
+bulk_extensions.accountcode.tooltip =
+	Hiermee kunt u de accountcode voor elk toestel definiëren. U kunt het gereserveerde woord <b>&#123;EXTENSION&#125;</b>
+	gebruiken om het toestel als accountcode te gebruiken.
+bulk_extensions.features_password.tooltip =
+	Hiermee kunt u het functiewachtwoord voor elk toestel definiëren; als dit leeg blijft, wordt een willekeurig wachtwoord gegenereerd.
+	U kunt het gereserveerde woord <b>&#123;EXTENSION&#125;</b> gebruiken om het toestel als functiewachtwoord te gebruiken.
+bulk_extensions.validation.invalid_range = Er is een ongeldig toestelbereik opgegeven
+bulk_extensions.validation.invalid_vm_password =
+	Het voicemailwachtwoord bevat ongeldige tekens. Alleen cijfers, het sterretje of gereserveerde woorden zijn toegestaan
+bulk_extensions.validation.invalid_f_password =
+	Het functiewachtwoord bevat ongeldige tekens. Alleen cijfers, het sterretje of gereserveerde woorden zijn toegestaan
+bulk_extensions.success =
+	Het toestelbereik is succesvol verwerkt. <b>Aangemaakte toestellen</b>: {0} | <b>Overgeslagen toestellen</b>: {1}
+bulk_extensions.name_prefix = Naamvoorvoegsel
+bulk_extensions.name_prefix.tooltip =
+	Hiermee kunt u een voorvoegsel definiëren als onderdeel van de toestelnaam, bijv.: als u het voorvoegsel Agent instelt en
+	het toestel 200 is, wordt de toestelnaam <b>Agent 200</b>. Indien leeg, wordt het woord <b>Toestel</b> als voorvoegsel gebruikt
+bulk_extensions.device_password = Apparaatwachtwoord
+bulk_extensions.device_password.tooltip =
+	Hiermee kunt u een dynamisch of vast wachtwoord voor de gegenereerde apparaten definiëren. Indien leeg, wordt een willekeurig wachtwoord ingesteld.
+	U kunt het gereserveerde woord <b>&#123;EXTENSION&#125;</b> gebruiken om het toestelnummer deel van het wachtwoord te maken,
+	bijv.: als het toestel 100 is en u dit veld instelt op <b>securepwd&#123;EXTENSION&#125;</b>, dan is het wachtwoord:
+	<b>securepwd100</b>

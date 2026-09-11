@@ -1,0 +1,15 @@
+extension_time_group.default.description = Portaal-tijdsgroep %s
+extension_time_group.general = Algemeen
+extension_time_group.no_extension = U hebt geen toestel voor de portaalgebruiker
+extension_time_group.schedules = Schema's
+extension_time_group.schedules.mday_end = Einddag van de maand
+extension_time_group.schedules.mday_start = Startdag van de maand
+extension_time_group.schedules.month_end = Eindmaand
+extension_time_group.schedules.month_start = Startmaand
+extension_time_group.schedules.tend = Eindtijd
+extension_time_group.schedules.tstart = Starttijd
+extension_time_group.schedules.wday_end = Einddag van de week
+extension_time_group.schedules.wday_start = Startdag van de week
+extension_time_group.select_time = -- Selecteer een tijd --
+menu.my_time_group = Mijn tijdsgroepen
+module.extension_timegroup = {menu.my_time_group}

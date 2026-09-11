@@ -1,0 +1,45 @@
+domotic_extensions.dial = Te bellen nummer
+domotic_extensions.dial.tooltip = Definieert het nummer dat moet worden gebeld om met de geselecteerde {0} te interageren.
+domotic_extensions.description = Beschrijving
+domotic_extensions.description.help = Korte beschrijving om deze {0} te identificeren.
+domotic_extensions.unit_id = Unit
+domotic_extensions.unit_id.help = Afhankelijk van de geselecteerde unit worden de {0} getoond die u kunt configureren.
+domotic_extensions.device_id = Apparaat
+domotic_extensions.device_id.help = Apparaat om mee te interageren.
+domotic_extensions.class_of_service_id = Serviceklasse
+domotic_extensions.class_of_service_id.help = Definieert vanuit welke serviceklasse deze {0} toegankelijk is.
+domotic_extensions.pin_list_id = PIN-lijst
+domotic_extensions.pin_list_id.help = Hiermee kunt u een pinlijst definiëren om de interactie met de {0} te beveiligen.
+domotic_extensions.white_list = Witte lijst
+domotic_extensions.white_list.help = Hiermee kunt u bepalen welke nummers geen pin hoeven in te voeren om met de geselecteerde {0} te interageren.
+domotic_extensions.scene_id = Scène
+domotic_extensions.scene_id.help = Scène om mee te interageren.
+domotic_extensions.toggle_mode = Wisselmodus
+domotic_extensions.toggle_mode2 = Instructies overslaan
+domotic_extensions.toggle_mode.help = Indien ja, wordt de apparaatstatus omgeschakeld zonder iets te vragen.
+domotic_extensions.toggle_mode.help2 = Indien ja, wordt de scène uitgevoerd zonder instructies af te spelen.
+domotic_extensions.recording_id = Welkomstbericht
+domotic_extensions.recording_id.help = Bericht dat aan het begin wordt afgespeeld, meestal om aan te geven met welke {0} u gaat interageren
+domotic_extensions.hint = Hint genereren
+domotic_extensions.hint.help = Hint genereren voor dit apparaat
+domotic_extensions.blf = BLF-hint
+domotic_extensions.blf.help = Dit is de tekenreeks die u op de BLF-lijnen van uw telefoon toevoegt.
+
+domotic_extensions.validation.empty_device = Het apparaat is verplicht.
+domotic_extensions.validation.empty_scene = De scène is verplicht.
+domotic_extensions.validation.empty_cos = De serviceklasse is verplicht.
+domotic_extensions.validation.empty_dial = Het te bellen nummer is verplicht.
+domotic_extensions.validation.invalid_dial = Het te bellen nummer heeft een ongeldig formaat. Cijfers, *, # en + zijn toegestaan.
+domotic_extensions.validation.empty_description = De beschrijving is verplicht.
+domotic_extensions.validation.invalid_description = De beschrijving heeft een ongeldig formaat. Cijfers, letters, spaties, streepjes en underscores zijn toegestaan.
+
+domotic_extensions.delete = {vitalpbx.delete}
+domotic_extensions.delete.message = {vitalpbx.confirm_delete.default_msg}
+
+domotic_extensions.device =
+    [one] apparaat
+    *[other] apparaten
+
+domotic_extensions.scene =
+     [one] scène
+     *[other] scènes

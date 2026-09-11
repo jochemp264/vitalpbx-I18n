@@ -1,0 +1,18 @@
+logfiles_viewer.error = Fout
+logfiles_viewer.general = Algemeen
+logfiles_viewer.invalid_request = Ongeldig verzoek
+logfiles_viewer.lines = Regels
+logfiles_viewer.lines.tooltip = Aantal weer te geven regels
+logfiles_viewer.logfile = Logbestand
+logfiles_viewer.logfile.tooltip = Selecteer het te bekijken logbestand
+logfiles_viewer.no_file_selected = Geen bestand geselecteerd
+logfiles_viewer.select_logfile = --- Selecteer een logbestand ---
+logfiles_viewer.invalid_filename = Het gevraagde logbestand kan niet worden gevonden
+menu.log_file_viewer = Logbestandviewer
+module.logfiles_viewer = Logbestandviewer
+logfiles_viewer.refresh = Vernieuwen
+logfiles_viewer.filter = Filter
+logfiles_viewer.filter.tooltip =
+	Hiermee kunt u de inhoud van de logbestanden eenvoudig filteren op opgegeven tekenreeksen of woorden. Als u bijvoorbeeld
+	alleen de Asterisk-foutenlogboeken wilt filteren, kunt u "ERRORS" invoeren en alleen foutberichten worden weergegeven.
+
