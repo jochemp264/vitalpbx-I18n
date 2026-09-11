@@ -1,16 +1,16 @@
-app_keys = Application Keys
-app_keys.description = Description
-app_keys.description.tooltip = A short description of your application
-app_keys.enabled = Enabled
-app_keys.enabled.tooltip = It defines if this APP key is enabled or not
-app_keys.general = {vitalpbx.general}
-app_keys.key = Key
-app_keys.key.tooltip = Key to use for authenticate third party apps
+app_keys = Applicatiesleutels
 menu.app_keys = {app_keys}
 module.app_keys = {app_keys}
+app_keys.general = {vitalpbx.general}
+app_keys.description = Beschrijving
+app_keys.description.tooltip = Een korte beschrijving van uw applicatie
+app_keys.enabled = Ingeschakeld
+app_keys.enabled.tooltip = Bepaalt of deze APP-sleutel is ingeschakeld of niet
+app_keys.key = Sleutel
+app_keys.key.tooltip = Sleutel om externe applicaties te authenticeren
 app_keys.tenant = Tenant
-app_keys.tenant.tooltip = 
-	It allows you to define which tenant will be associated with this API key, so, when someone uses this key it will
-	only fetch data related to the assigned tenant. However, if set to none, the end-user must provide the tenant ID or
-	path on each request.
-app_keys.all = -- Any Tenant --
+app_keys.tenant.tooltip =
+	Hiermee kunt u bepalen welke tenant aan deze API-sleutel wordt gekoppeld, zodat bij gebruik van deze sleutel
+	alleen gegevens van de toegewezen tenant worden opgehaald. Als u echter "Elke tenant" instelt, kunt u
+	informatie van elke tenant ophalen door het tenant-ID of pad in elk verzoek op te geven.
+app_keys.all = -- Elke tenant --

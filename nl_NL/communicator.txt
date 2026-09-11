@@ -1,0 +1,15 @@
+communicator_pause_profiles = Pauzeprofielen
+menu.communicator = Communicator
+menu.communicator_pause_profiles = {communicator_pause_profiles}
+module.communicator_pause_profiles = Communicator-pauzeprofielen
+communicator_pause_profiles.general = {vitalpbx.general}
+communicator.pp.description = {description}
+communicator.pp.description.tooltip = Een korte beschrijving om dit pauzeprofiel eenvoudig te identificeren.
+communicator.pp.reasons = Pauze-redenen
+communicator.pp.reasons.tooltip =
+    De pauze-redenen die worden gebruikt bij het pauzeren vanuit wachtrijen via de Communicator-app. U kunt meerdere
+    pauze-redenen invoeren, gescheiden door een komma.
+communicator.pp.validation.no_reasons = U hebt geen geldige lijst met pauze-redenen opgegeven.
+communicator.pp.url = URL van pauzeprofiel
+communicator.pp.url.tooltip = De URL om de pauze-redenen in de Communicator-app te laden.
+communicator.pp.url_copied = De URL is naar het klembord gekopieerd.

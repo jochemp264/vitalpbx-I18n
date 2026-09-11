@@ -1,217 +1,290 @@
-menu.trunks = Externe Koppelingen
-module.trunks = Externe Koppelingen
-trunks = Externe Koppelingen
+menu.trunks = Trunks
+module.trunks = Trunks
+trunks = Trunks
 trunks.advanced = Geavanceerd
-trunks.class_of_service_id = Class of Service
-trunks.class_of_service_id.tooltip = Class of services voor toegang tot het kiesplan voor externe koppelingen.
+trunks.class_of_service_id = Serviceklasse
+trunks.class_of_service_id.tooltip = Serviceklassen voor toegang tot het belplan van de trunk.
 trunks.codecs = Codecs
-trunks.codecs.tooltip = Lijst van toegestane codecs. De volgorde waarin de codecs vermeld worden, bepaalt de volgorde van voorkeur. Als u ten minste één codec selecteert, wordt ook de parameter "disallow=all" gegenereerd.
-trunks.custom_settings = Aangepaste Instellingen
-trunks.dahdi_trunk_parameters = Parameters Externe Koppelingen DAHDi
-trunks.description = Omschrijving
-trunks.description.tooltip = Korte omschrijving van deze externe koppeling
-trunks.device_for_incoming_calls = Toestel voor Inkomende Oproepen (Gebruiker)
-trunks.device_for_outgoing_calls = Toestel voor Uitgaande Oproepen (Peer)
-trunks.dialoptions = Kiesopties
-trunks.dialoptions.tooltip = Kiesoptieparameters
-trunks.dialstring = Kiesstring
-trunks.disable = Externe Koppeling Uitschakelen
-trunks.disable.tooltip = Dit laat u deze externe koppeling uitschakelen, zodat ze ontoegankelijk is.
+trunks.codecs.tooltip = Lijst van toegestane codecs. De volgorde waarin de codecs staan, bepaalt hun voorkeursvolgorde. Als u minstens één codec selecteert, wordt ook de parameter "disallow=all" gegenereerd.
+trunks.custom_settings = Aangepaste instellingen
+trunks.dahdi_trunk_parameters = DAHDi-trunkparameters
+trunks.description = Beschrijving
+trunks.description.tooltip = Korte beschrijving om deze trunk te identificeren
+trunks.device_for_incoming_calls = Apparaat voor inkomende gesprekken (User)
+trunks.device_for_outgoing_calls = Apparaat voor uitgaande gesprekken (Peer)
+trunks.dialoptions = Belopties
+trunks.dialoptions.tooltip = Parameters voor belopties
+trunks.dialstring = Beltekenreeks
+trunks.disable = Trunk uitschakelen
+trunks.disable.tooltip = Hiermee kunt u deze trunk ontoegankelijk maken.
 trunks.general = Algemeen
 trunks.group_id = Kanaalgroep
-trunks.group_id.tooltip = De kanaalgroep die door deze externe koppeling wordt gebruikt.
+trunks.group_id.tooltip = De kanaalgroep die door deze trunk wordt gebruikt.
 trunks.group_mode = Modus
 trunks.group_mode.tooltip = Selectiemodus voor beschikbare kanalen.
-trunks.incoming_defaultuser = Externe Gebruikersnaam
-trunks.incoming_defaultuser.tooltip = Gebruikersnaam voor verificatie voor externe server
+trunks.incoming_defaultuser = Externe gebruikersnaam
+trunks.incoming_defaultuser.tooltip = Authenticatiegebruikersnaam voor de externe server
 trunks.incoming_host = Host
-trunks.incoming_host.tooltip = Adres van de SIP-server die belt
+trunks.incoming_host.tooltip = Adres van de bellende SIP-server
 trunks.incoming_qualify = Kwalificeren
-trunks.incoming_qualify.tooltip = Controleert activiteit
-trunks.incoming_remotesecret = Extern Wachtwoord
-trunks.incoming_remotesecret.tooltip = Wachtwoord voor verificatie voor externe server
-trunks.incoming_secret = Lokaal Wachtwoord
-trunks.incoming_secret.tooltip = Wachtwoord dat moet worden gebruikt voor verificatieverzoeken van externe server.
-trunks.incoming_trunk = IAX Trunking
-trunks.incoming_trunk.tooltip = Maakt het mogelijk om de stem van verschillende oproepen in één IAX-pakket te verzenden. Dit kan de vereiste netwerkbandbreedte aanzienlijk verminderen.
-trunks.incoming_type = IP-verificatie
-trunks.incoming_type.tooltip = Als dit aangevinkt is, kunnen inkomende verzoeken niet enkel op hun gebruikersnaam, maar ook op hun IP-adres worden geverifieerd.
+trunks.incoming_qualify.tooltip = Controleert of deze in leven is
+trunks.incoming_remotesecret = Extern geheim
+trunks.incoming_remotesecret.tooltip = Authenticatiegeheim voor de externe server
+trunks.incoming_secret = Lokaal geheim
+trunks.incoming_secret.tooltip = Geheim dat wordt gebruikt voor authenticatieverzoeken van de externe server.
+trunks.incoming_trunk = IAX-trunking
+trunks.incoming_trunk.tooltip = Maakt het mogelijk spraak van meerdere gesprekken in één IAX-pakket te verzenden. Dit kan de benodigde netwerkbandbreedte aanzienlijk verminderen.
+trunks.incoming_type = IP-authenticatie
+trunks.incoming_type.tooltip = Indien aangevinkt, kunnen inkomende verzoeken naast gebruikersnaamauthenticatie ook op IP-adres worden geauthenticeerd.
 trunks.incoming_username = Gebruikersnaam
-trunks.incoming_username.duplicate = Inkomende Gebruikersnaam bestaat al (moet uniek zijn)
-trunks.incoming_username.tooltip = Gebruikersnaam die de externe server moet gebruiken om contact te maken met deze PBX. Dit is ook de toestelnaam die zal worden aangemaakt.
+trunks.incoming_username.duplicate = Inkomende gebruikersnaam bestaat al (moet uniek zijn)
+trunks.incoming_username.tooltip = Gebruikersnaam die de externe server moet gebruiken om deze PBX te bereiken. Dit is ook de apparaatnaam die wordt aangemaakt.
 trunks.insecure = Onveilig
-trunks.insecure.invite = Uitnodiging
-trunks.insecure.invite.tooltip = Geen verificatie vereisen van inkomende UITNODIGINGEN'
+trunks.insecure.invite = Invite
+trunks.insecure.invite.tooltip = Geen authenticatie vereisen van inkomende INVITES
 trunks.insecure.not_used = Niet gebruikt
 trunks.insecure.port = Poort
-trunks.insecure.port.tooltip = Maakt het herkennen van peers volgens IP-adres zonder het herkennen van het poortnummer mogelijk
-trunks.insecure.port_invite = Poort, Uitnodiging
-trunks.insecure.port_invite.tooltip = Deze combinatie biedt minimale beveiliging, aangezien geen controle, poortcontrole of verificatie vereist wordt van het berichttype UITNODIGING.
-trunks.insecure.tooltip = Maakt het mogelijk om de verificatie van inkomende SIP-verzoeken te versoepelen.
+trunks.insecure.port.tooltip = Overeenkomst van peer op IP-adres toestaan zonder overeenkomend poortnummer
+trunks.insecure.port_invite = Poort, Invite
+trunks.insecure.port_invite.tooltip = Deze combinatie is de minimale beveiliging omdat er geen controle of poortcontrole of authenticatie van het INVITE-berichttype is.
+trunks.insecure.tooltip = Maakt soepelere authenticatie van inkomende SIP-verzoeken mogelijk.
 trunks.music_group_id = Wachtmuziek
-trunks.music_group_id.tooltip = Deze optie bepaalt welke klasse wachtmuziek moet worden voorgesteld aan het kanaal van de peer wanneer dit kanaal de peer laat wachten.
-trunks.outgoing_defaultuser = Externe Gebruikersnaam
-trunks.outgoing_defaultuser.tooltip = Gebruikersnaam voor verificatie voor externe server
+trunks.music_group_id.tooltip =
+    Deze optie geeft aan welke wachtmuziekklasse aan het peerkanaal moet worden voorgesteld wanneer een uitgaand gesprek in de wacht wordt gezet.
+    Inschakelen overschrijft de MOH-instelling uit de geavanceerde toestelinstellingen voor externe uitgaande gesprekken.
+trunks.outgoing_defaultuser = Externe gebruikersnaam
+trunks.outgoing_defaultuser.tooltip = Authenticatiegebruikersnaam voor de externe server
 trunks.outgoing_fromdomain = Van-domein
-trunks.outgoing_fromdomain.tooltip = Vervangt het onderdeel dat het domein aangeeft in de "Van"-regel van de koptekst. Dit is soms vereist voor een correcte verificatie op een externe server. Anders wordt het lokale IP-adres gebruikt.
+trunks.outgoing_fromdomain.tooltip = Vervangt het domeingedeelte in het "From"-headerveld. Soms vereist voor correcte authenticatie op de externe server. Anders wordt het lokale IP-adres gebruikt.
 trunks.outgoing_fromuser = Van-gebruiker
-trunks.outgoing_fromuser.tooltip = Vervangt de SIP-gebruikersnaam in de "Van"-regel van de koptekst. Dit is soms vereist voor een correcte verificatie op een externe server.
-trunks.outgoing_host = Host
-trunks.outgoing_host.duplicate = Uitgaande Host is vereist
-trunks.outgoing_host.tooltip = Adres externe server
-trunks.outgoing_port = Poort
-trunks.outgoing_port.tooltip = Het poortnummer waar we verbinding mee willen maken aan de andere zijde
+trunks.outgoing_fromuser.tooltip = Vervangt de SIP-gebruikersnaam in het "From"-headerveld. Soms vereist voor correcte authenticatie op de externe server.
+trunks.outgoing_host = Externe host
+trunks.outgoing_host.duplicate = De externe host is verplicht
+trunks.outgoing_host.tooltip = Adres van de externe server
+trunks.outgoing_port = Externe poort
+trunks.outgoing_port.tooltip = Het poortnummer waarmee we aan de andere kant willen verbinden
 trunks.outgoing_qualify = Kwalificeren
-trunks.incoming_qualify.tooltip = Controleert activiteit
-trunks.outgoing_remotesecret = Extern Wachtwoord
-trunks.outgoing_remotesecret.tooltip = Wachtwoord voor verificatie voor externe server
-trunks.outgoing_secret = Lokaal Wachtwoord
-trunks.outgoing_secret.tooltip = Wachtwoord dat moet worden gebruikt voor verificatieverzoeken van externe server.
-trunks.outgoing_trunk = IAX Trunking
-trunks.outgoing_trunk.tooltip = Maakt het mogelijk om de stem van verschillende oproepen in één IAX-pakket te verzenden. Dit kan de vereiste netwerkbandbreedte aanzienlijk verminderen.
-trunks.outgoing_type = Sta Inkomende Oproepen Toe
-trunks.outgoing_type.tooltip = Als dit aangevinkt is, mag het toestel ook oproepen ontvangen.
-trunks.outgoing_username = Uitgaande Gebruikersnaam
-trunks.outgoing_username.duplicate = Uitgaande Gebruikersnaam bestaat al (moet uniek zijn)
-trunks.outgoing_username.tooltip = Gebruikersnaam die de externe server moet gebruiken om contact te maken met deze PBX. Dit is ook de toestelnaam die zal worden aangemaakt.
-trunks.overwrite_cid = Beller-id Overschrijven
-trunks.overwrite_cid.tooltip = Beller-id Overschrijven.
-trunks.register_flag = Standaard Gebruiken
-trunks.register_flag.tooltip = Standaard Registerstring
-trunks.register_string = Registerstring
-trunks.restricted = Beperkt
-trunks.ringtimer = Rinkeltimer
-trunks.ringtimer.tooltip = Tijd om de externe koppeling te laten rinkelen
+trunks.outgoing_qualify.tooltip = Controleert of deze in leven is
+trunks.outgoing_remotesecret = Extern geheim
+trunks.outgoing_remotesecret.tooltip = Authenticatiegeheim voor de externe server
+trunks.outgoing_secret = Lokaal geheim
+trunks.outgoing_secret.tooltip = Geheim dat wordt gebruikt voor authenticatieverzoeken van de externe server.
+trunks.outgoing_trunk = IAX-trunking
+trunks.outgoing_trunk.tooltip = Maakt het mogelijk spraak van meerdere gesprekken in één IAX-pakket te verzenden. Dit kan de benodigde netwerkbandbreedte aanzienlijk verminderen.
+trunks.outgoing_type = Inkomende gesprekken toestaan
+trunks.outgoing_type.tooltip = Indien aangevinkt, mag dit apparaat ook gesprekken ontvangen.
+trunks.outgoing_username = Lokale gebruikersnaam
+trunks.outgoing_username.duplicate = De opgegeven lokale gebruikersnaam bestaat al (moet uniek zijn)
+trunks.outgoing_username.tooltip = Gebruikersnaam die de externe server moet gebruiken om deze PBX te bereiken. Dit is ook de apparaatnaam die wordt aangemaakt.
+trunks.overwrite_cid = CID overschrijven
+trunks.overwrite_cid.tooltip = Caller ID overschrijven.
+trunks.register_flag = Standaard gebruiken
+trunks.register_flag.tooltip = Standaard registertekenreeks gebruiken
+trunks.register_string = Registertekenreeks
+trunks.restricted = Trunkstandaard
+trunks.ringtimer = Beltijd
+trunks.ringtimer.tooltip = Tijd dat de trunk overgaat
 trunks.technology = Technologie
 trunks.technology.iax2 = IAX2
 trunks.technology.sip = SIP
 trunks.technology.telephony = Telefonie
-trunks.technology.tooltip = Technologie Externe Koppeling
+trunks.technology.tooltip = Trunktechnologie
 trunks.trkcustom.enabled = Ingeschakeld
 trunks.trkcustom.param = Parameter
 trunks.trkcustom.type = Type
-trunks.trkcustom.type.friend = Vriend
+trunks.trkcustom.type.friend = Friend
 trunks.trkcustom.type.peer = Peer
-trunks.trkcustom.type.user = Gebruiker
+trunks.trkcustom.type.user = User
 trunks.trkcustom.value = Waarde
-trunks.trunk_cid = Beller-id Externe Koppeling
-trunks.trunk_cid.tooltip = Beller-id voor deze externe koppeling.
-trunks.trunk_cid_name = Beller-id-naam Externe Koppeling
-trunks.trunk_cid_number = Beller-id-nummer Externe Koppeling
-trunks.cos.warning = The action you are about to perform may create security vulnerabilities. <b>Do not proceed unless you are sure you understand the logic of Class of Service for trunks.</b>
-trunks.cos.warning.cancel = Cancel my change
-trunks.cos.warning.confirm = I understand and confirm
-trunks.cos.warning.title = Warning
-trunks.dial_profile_id = Dial Profile
-trunks.dial_profile_id.tooltip = Profile with the dial options to use when this trunk is dialed.
-trunks.nat = Nat
-trunks.outgoing_qualify.tooltip = Makes sure that is alive
-trunks.outgoing_username.invalid = Please enter a valid device name. Alphanumeric value with dash, underscore and plus sign are allowed
-trunks.trunk_cid_number.invalid = Trunk CID is invalid. Only *,#,+ and numbers are allowed.
-trunks.continue_on_busy = Continue on Busy
-trunks.continue_on_busy.tooltip = 	
-	It force to continue the call to the next configured trunk when this trunk being busy. <br><br> <b>Note: </b> The call will
-	also continue to the next trunk if any error happens, even if this checkbox is not checked.
-trunks.auth_rejection_permanent = Permanent Auth Rejection
-trunks.auth_rejection_permanent.tooltip = 
-	If this option is enabled and an authentication challenge fails, registration will not be attempted again until
-	the configuration is reloaded
-trunks.custom_dial_string = Dial String %s
-trunks.custom_dial_string.tooltip = 
-	Custom dial string to use during the dialing of this trunk. Use the variable $[EXTEN] wherever the number to dial should go.
-	e.g: OH323/$[EXTEN]@10.0.1.200:10060
-trunks.expiration = Expiration
-trunks.expiration.tooltip = Expiration time for registrations in seconds
-trunks.forbidden_retry_interval = Forbidden Retry Interval
-trunks.forbidden_retry_interval.tooltip = 
-	It defines the time to wait before attempting registration again, after receive a 403 Forbidden response.
-	If 0 is specified, no retry will be made after receiving a 403 Forbidden response
-trunks.general_conf = General Configurations
-trunks.get_cid_from = Get CID From
-trunks.get_cid_from.contact = Contact
-trunks.get_cid_from.from = From
-trunks.get_cid_from.tooltip = It allows you to define from which SIP header will be extracted the caller ID info
-trunks.get_did_from = Get DID From
-trunks.get_did_from.to = To
-trunks.get_did_from.tooltip = It allows you to define from which SIP header will be extracted the DID number
-trunks.incoming_settings = User Parameters
-trunks.incoming_settings.tooltip = User parameters supplied by your VoIP provider
-trunks.match = Match
-trunks.match.tooltip = 
-	The value is a comma-delimited list of IP addresses or hostnames. IP addresses may have a subnet mask appended.
-	The subnet mask may be written in either CIDR or dotted-decimal notation. Separate the IP address and subnet mask
-	with a slash ('/').
-trunks.max_reached = You have reached the maximum number of trunks allowed
-trunks.max_retries = Max Retries
-trunks.max_retries.tooltip = Maximum number of registration attempts
-trunks.no_outgoing_settings = There are not outgoing settings defined on this trunk
-trunks.outbound_registration = Require Registration
-trunks.outbound_registration.tooltip = It defines, if is required to register against the remote server or VoIP provider
-trunks.outbound_registration_settings = Outbound Registration Settings
-trunks.outgoing_settings = Peer Parameters
-trunks.outgoing_settings.tooltip = Peer parameters supplied by your VoIP provider
-trunks.plain_mode = Switch to Text Mode
-trunks.retry_interval = Retry Interval
-trunks.retry_interval.tooltip = Interval in seconds between retries if outbound registration is unsuccessful
-trunks.rules = Dialing Manipulation Rules
+trunks.trunk_cid = Trunk-CID
+trunks.trunk_cid_number.invalid = Trunk-CID is ongeldig. Alleen *,#,+ en cijfers zijn toegestaan.
+trunks.trunk_cid.tooltip = Caller ID voor deze trunk.
+trunks.trunk_cid_name = Trunk-CID-naam
+trunks.trunk_cid_number = Trunk-CID-nummer
+trunks.cos.warning = De actie die u wilt uitvoeren kan beveiligingsrisico's opleveren. <b>Ga niet verder tenzij u zeker weet dat u de logica van serviceklasse voor trunks begrijpt.</b>
+trunks.cos.warning.title = Waarschuwing
+trunks.cos.warning.confirm = Ik begrijp het en bevestig
+trunks.cos.warning.cancel = Mijn wijziging annuleren
+trunks.dial_profile_id = Belprofiel
+trunks.dial_profile_id.tooltip = Profiel met de belopties die worden gebruikt wanneer deze trunk wordt gebeld.
+trunks.outgoing_username.invalid = Voer een geldige apparaatnaam in. Alfanumerieke waarde met streepje, underscore en plusteken is toegestaan
+trunks.nat = NAT
+trunks.continue_on_busy = Doorgaan bij bezet
+trunks.continue_on_busy.tooltip =
+	Forceert dat het gesprek doorgaat naar de volgende geconfigureerde trunk wanneer deze trunk bezet is. <br><br> <b>Opmerking: </b> Het gesprek gaat
+	ook door naar de volgende trunk als er een fout optreedt, ook als dit vakje niet is aangevinkt.
+trunks.validation.duplicated_outgoing_username = De opgegeven uitgaande gebruikersnaam wordt al door een andere trunk gebruikt
+trunks.validation.duplicated_description = De opgegeven beschrijving wordt al door een andere trunk gebruikt
+trunks.validation.same_username = De gebruikersnaam voor uitgaande en inkomende gesprekken is hetzelfde. Gebruik verschillende gebruikersnamen voor beide velden
+trunks.validation.duplicated_incoming_username = De opgegeven gebruikersnaam in de sectie inkomende gesprekken wordt al door een andere trunk gebruikt
+trunks.validation.no_outgoing_username = De uitgaande gebruikersnaam is niet opgegeven
+trunks.validation.no_outgoing_host = De uitgaande host is niet opgegeven
+trunks.simultaneous_calls = Gelijktijdige gesprekken
+trunks.simultaneous_calls.tooltip = Hiermee kunt u het aantal gelijktijdige uitgaande gesprekken voor deze trunk definiëren.
+trunks.plain_mode = Overschakelen naar tekstmodus
+trunks.visual_mode = Overschakelen naar visuele modus
+trunks.outgoing_settings = Peerparameters
+trunks.outgoing_settings.tooltip = Peerparameters die door uw VoIP-provider zijn verstrekt
+trunks.incoming_settings = Gebruikersparameters
+trunks.incoming_settings.tooltip = Gebruikersparameters die door uw VoIP-provider zijn verstrekt
+trunks.no_outgoing_settings = Er zijn geen uitgaande instellingen op deze trunk gedefinieerd
+trunks.rules = Regels voor belmanipulatie
+trunks.rules.prepend = Voorvoegen
+trunks.rules.prefix = Voorvoegsel
+trunks.rules.pattern = Patroon
 trunks.rules.enabled = {trunks.trkcustom.enabled}
-trunks.rules.pattern = Pattern
-trunks.rules.prefix = Prefix
-trunks.rules.prepend = Prepend
-trunks.simultaneous_calls = Simultaneous Calls
-trunks.simultaneous_calls.tooltip = It allows you to define the amount of simultaneous outgoing calls allowed for this trunk.
-trunks.tenant_trunk = Tenant
-trunks.tenant_trunk.tooltip = It allows you to define to which tenant will be routed the calls made through this trunk.
+trunks.get_did_from = DID ophalen uit
+trunks.get_did_from.to = To
+trunks.get_did_from.tooltip = Hiermee kunt u bepalen uit welke SIP-header het DID-nummer wordt gehaald
+trunks.get_cid_from = CID ophalen uit
+trunks.get_cid_from.tooltip = Hiermee kunt u bepalen uit welke SIP-header de caller-id-informatie wordt gehaald
+trunks.get_cid_from.from = From
+trunks.get_cid_from.contact = Contact
+trunks.outbound_registration_settings = Instellingen uitgaande registratie
+trunks.outbound_registration = Registratie vereisen
+trunks.outbound_registration.tooltip = Bepaalt of registratie bij de externe server of VoIP-provider vereist is
+trunks.auth_rejection_permanent = Permanente authenticatieweigering
+trunks.auth_rejection_permanent.tooltip =
+	Als deze optie is ingeschakeld en een authenticatie-uitdaging mislukt, wordt registratie niet opnieuw geprobeerd totdat
+	de configuratie opnieuw is geladen
+trunks.max_retries = Max. pogingen
+trunks.max_retries.tooltip = Maximum aantal registratiepogingen
+trunks.expiration = Verval
+trunks.expiration.tooltip = Vervaltijd voor registraties in seconden
+trunks.retry_interval = Herhaalinterval
+trunks.retry_interval.tooltip = Interval in seconden tussen pogingen als uitgaande registratie niet slaagt
+trunks.forbidden_retry_interval = Interval na verboden
+trunks.forbidden_retry_interval.tooltip =
+	Bepaalt de wachttijd voordat opnieuw wordt geprobeerd te registreren na ontvangst van een 403 Forbidden-antwoord.
+	Als 0 is opgegeven, wordt na een 403 Forbidden-antwoord geen nieuwe poging gedaan
+trunks.match = Overeenkomst
+trunks.match.tooltip =
+	De waarde is een door komma's gescheiden lijst van IP-adressen of hostnamen. Aan IP-adressen kan een subnetmasker worden toegevoegd.
+	Het subnetmasker kan in CIDR- of dotted-decimal-notatie worden geschreven. Scheid het IP-adres en het subnetmasker
+	met een slash ('/').
+trunks.general_conf  = Algemene configuraties
 trunks.transport = {profiles_pjsip_transport}
-trunks.transport.tooltip = Explicit transport configuration to use
-trunks.validation.duplicated_description = The provided description is being used by another trunk
-trunks.validation.duplicated_incoming_username = The provided username in the incoming calls section is being used by another trunk
-trunks.validation.duplicated_outgoing_username = The provided outgoing username is being used by another trunk
-trunks.validation.no_dial_string = You have not provided a valid dial string
-trunks.validation.no_outgoing_host = The outgoing host has not been provided
-trunks.validation.no_outgoing_username = The outgoing username has not been provided
-trunks.validation.no_tenant = You have not selected a valid tenant for this trunk
-trunks.validation.pjsip.no_remote_credentials = The outbound registration has been marked as required, but the remote username or the remote secret has not been defined
-trunks.validation.same_username = The username for outgoing and incoming calls are the same. Please, use different username for both fields
-trunks.visual_mode = Switch to Visual Mode
-trunks.custom_headers = Custom Headers
+trunks.transport.tooltip = Expliciete transportconfiguratie om te gebruiken
+trunks.validation.pjsip.no_remote_credentials = De uitgaande registratie is als verplicht gemarkeerd, maar de externe gebruikersnaam of het externe geheim is niet gedefinieerd
+trunks.custom_dial_string = Beltekenreeks %s
+trunks.custom_dial_string.tooltip =
+	Aangepaste beltekenreeks die tijdens het bellen van deze trunk wordt gebruikt. Gebruik de variabele $[EXTEN] waar het te bellen nummer moet komen.
+	bijv.: OH323/$[EXTEN]@10.0.1.200:10060
+trunks.validation.no_dial_string = U hebt geen geldige beltekenreeks opgegeven
+trunks.tenant_trunk = Tenant
+trunks.tenant_trunk.tooltip = Hiermee kunt u bepalen naar welke tenant de gesprekken via deze trunk worden gerouteerd.
+trunks.validation.no_tenant = U hebt geen geldige tenant voor deze trunk geselecteerd
+trunks.max_reached = U hebt het maximale aantal toegestane trunks bereikt
+trunks.custom_headers = Aangepaste headers
 trunks.trkcustom.header = Header
-trunks.client_uri = Client URI
-trunks.client_uri.tooltip = 
-	This is the address-of-record for the outbound registration (i.e. the URI in the To header of the REGISTER).
-	For registration with an ITSP, the client SIP URI may need to consist of an account name or number and the provider's
-	hostname for their registrar, e.g. <b>1234567890@example.com</b>. This may differ between providers.<br><br>
-	For registration to generic registrars, the client SIP URI will depend on networking specifics and configuration
-	of the registrar.
-trunks.contacts = Contacts
-trunks.contacts.tooltip = 
-	Permanent contacts assigned to an AoR. You can define multiple contact addresses in SIP URI format. <br>
-	e.g.: sip:198.51.100.1:5060
-trunks.dtmfmode = {hot_desking.dtmfmode}
 trunks.profile_id = {hot_desking.profile_id}
 trunks.profile_id.tooltip = {hot_desking.profile_id.tooltip}
-trunks.server_uri = Server URI
-trunks.server_uri.tooltip = 
-	This is the URI at which to find the registrar to send the outbound REGISTER. This URI is used as the request URI
-	of the outbound REGISTER request from Asterisk. <br><br>For registration with an ITSP, the setting may often be just the
-	domain of the registrar, e.g. <b>sip:sip.example.com</b>.
-trunks.validation.pjsip.no_contacts = 
-	No contacts and no host has been defined. When contacts are not defined you must provide remote host to build default contact URI
-trunks.validation.pjsip.no_outgoing_host = The registration parameter is enabled but the remote host parameter hasn't been provided
-trunks.contact_user = Contact User
-trunks.contact_user.tooltip = 
-	sets the SIP contact header's user portion of the SIP URI, this will affect the extension reached in dialplan when
-	the far end calls you at this registration.
-trunks.none = -- None --
-trunks.overwrite_cid.if_not_provided = {trunk_group.overwrite_cid.if_not_provided}
-trunks.overwrite_cid.if_not_provided.tooltip = {trunk_group.overwrite_cid.if_not_provided.tooltip}
-trunks.overwrite_cid.no = {trunk_group.overwrite_cid.no}
-trunks.overwrite_cid.no.tooltip = {trunk_group.overwrite_cid.no.tooltip}
+trunks.dtmfmode = {hot_desking.dtmfmode}
+trunks.contacts = Contacten
+trunks.contacts.tooltip =
+	Permanente contacten die aan een AoR zijn toegewezen. U kunt meerdere contactadressen in SIP-URI-formaat definiëren. <br>
+	bijv.: sip:198.51.100.1:5060
+trunks.validation.pjsip.no_outgoing_host = De registratieparameter is ingeschakeld maar de parameter externe host is niet opgegeven
+trunks.client_uri = Client-URI
+trunks.client_uri.tooltip =
+	Dit is het address-of-record voor de uitgaande registratie (d.w.z. de URI in de To-header van de REGISTER).
+	Voor registratie bij een ITSP kan de client-SIP-URI bestaan uit een accountnaam of -nummer en de hostnaam van de
+	registrar van de provider, bijv. <b>sip:1234567890@sip.example.com</b>. Dit kan per provider verschillen.<br><br>
+	Voor registratie bij generieke registrars hangt de client-SIP-URI af van netwerkspecificaties en configuratie
+	van de registrar.
+trunks.server_uri = Server-URI
+trunks.server_uri.tooltip =
+	Dit is de URI waarop de registrar wordt gevonden om de uitgaande REGISTER te verzenden. Deze URI wordt gebruikt als request-URI
+	van het uitgaande REGISTER-verzoek van Asterisk. <br><br>Voor registratie bij een ITSP kan de instelling vaak alleen het
+	domein van de registrar zijn, bijv. <b>sip:sip.example.com</b>.
+trunks.validation.pjsip.no_contacts =
+	Er zijn geen contacten en geen host gedefinieerd. Als er geen contacten zijn gedefinieerd, moet u een externe host opgeven om de standaard contact-URI op te bouwen
+trunks.contact_user = Contactgebruiker
+trunks.contact_user.tooltip =
+	stelt het gebruikersgedeelte van de SIP-URI in de SIP-contactheader in; dit beïnvloedt het toestel dat in het belplan wordt bereikt wanneer
+	de andere kant u via deze registratie belt.
 trunks.overwrite_cid.yes = {trunk_group.overwrite_cid.yes}
-trunks.overwrite_cid.yes.tooltip = It forces to overwrite the CID with the CID parameters defined on this trunk
+trunks.overwrite_cid.no = {trunk_group.overwrite_cid.no}
+trunks.overwrite_cid.if_not_provided = {trunk_group.overwrite_cid.if_not_provided}
+trunks.overwrite_cid.yes.tooltip = Forceert het overschrijven van de CID met de CID-parameters die op deze trunk zijn gedefinieerd
+trunks.overwrite_cid.no.tooltip = {trunk_group.overwrite_cid.no.tooltip}
+trunks.overwrite_cid.if_not_provided.tooltip = {trunk_group.overwrite_cid.if_not_provided.tooltip}
+trunks.none = -- Geen --
 trunks.qualify_frequency = {profiles_pjsip_qualify_frequency}
 trunks.qualify_frequency.tooltip = {profiles_pjsip_qualify_frequency_tooltip}
 trunks.qualify_timeout = {profiles_pjsip_qualify_timeout}
 trunks.qualify_timeout.tooltip = {profiles_pjsip_qualify_timeout_tooltip}
 trunks.outbound_proxy = {profiles_pjsip_outbound_proxy}
 trunks.outbound_proxy.tooltip = {profiles_pjsip_outbound_proxy_tooltip}
+trunks.fax_settings = Faxinstellingen
+trunks.t38_udptl_ec = Foutcorrectiemethode
+trunks.t38_udptl_ec.tooltip = T.38 UDPTL-foutcorrectiemethode
+trunks.t38_udptl_ec.none = {none}
+trunks.t38_udptl_ec.none.info = Er mag geen foutcorrectie worden gebruikt.
+trunks.t38_udptl_ec.fec = FEC
+trunks.t38_udptl_ec.fec.info =Forward error correction moet worden gebruikt.
+trunks.t38_udptl_ec.redundancy = Redundantie
+trunks.t38_udptl_ec.redundancy.info = Redundantiefoutcorrectie moet worden gebruikt.
+trunks.t38_udptl_maxdatagram = MAX-datagram
+trunks.t38_udptl_maxdatagram.tooltip =
+	Maximale datagramgrootte van T.38 UDPTL. Deze optie kan worden ingesteld om het maximale datagram van een extern eindpunt te overschrijven voor
+	defecte eindpunten.
+trunks.fax_detect_timeout = Detectietime-out
+trunks.fax_detect_timeout.tooltip =
+	Deze optie bepaalt hoeveel seconden na het begin van een gesprek de optie fax_detect voor het gesprek wordt uitgeschakeld. De waarde
+	op nul zetten schakelt de time-out uit.
+trunks.t38_udptl = T.38 UDPTL
+trunks.t38_udptl.tooltip =
+	Indien ja, wordt T.38 UDPTL-ondersteuning ingeschakeld en worden T.38-onderhandelingsverzoeken geaccepteerd en doorgestuurd.
+trunks.fax_detect = Faxdetectie
+trunks.fax_detect.tooltip = Of CNG-toondetectie is ingeschakeld
+trunks.t38_udptl_nat = T.38 UDPTL NAT
+trunks.t38_udptl_nat.tooltip = Of NAT-ondersteuning is ingeschakeld op UDPTL-sessies
+trunks.t38_udptl_ipv6 = T.38 UDPTL IPv6
+trunks.t38_udptl_ipv6.tooltip = Of IPv6 wordt gebruikt voor UDPTL-sessies
+trunks.max_contacts.tooltip =
+	Maximum aantal contacten dat aan deze AoR kan worden gekoppeld. Deze waarde heeft geen invloed op het aantal contacten dat
+	met de optie "contact" kan worden toegevoegd. Het beperkt alleen contacten die via externe interactie worden toegevoegd, zoals registratie.
+trunks.disable_hangup_audios = Ophang-audio uitschakelen
+trunks.disable_hangup_audios.tooltip =
+	Indien ja, worden de audio's die afhankelijk van de ophangoorzaak worden afgespeeld uitgeschakeld. Deze optie is handig
+	in omgevingen waar de PBX voor transitgesprekken wordt gebruikt.
+trunks.dial_prefix = Belvoorvoegsel
+trunks.dial_prefix.tooltip = Indien gedefinieerd, wordt het voorvoegsel voor elk nummer geplaatst dat via deze trunk wordt gebeld.
+trunks.identify_by = Identificeren op
+trunks.identify_by.tooltip =
+	Eindpunten en AOR's kunnen op meerdere manieren worden geïdentificeerd. Deze optie is een lijst van methoden waarmee het eindpunt kan worden geïdentificeerd.
+	Als er geen opties zijn geselecteerd, worden standaard "Gebruikersnaam" en "IP" gebruikt.
+trunks.identify_by.username = Gebruikersnaam
+trunks.identify_by.ip = IP
+trunks.identify_by.auth_username = Authenticatiegebruikersnaam
+trunks.identify_by.header = Header
+trunks.identify_by.username.tooltip = Identificeren op de From- of To-gebruikersnaam en het domein.
+trunks.identify_by.ip.tooltip = Identificeren op het bron-IP-adres.
+trunks.identify_by.auth_username.tooltip = Identificeren op de Authorization-gebruikersnaam en realm.
+trunks.identify_by.header.tooltip = Identificeren op een geconfigureerde SIP-headerwaarde.
+trunks.match_header = Headerovereenkomst
+trunks.match_header.tooltip =
+	Een SIP-header waarvan de waarde wordt gebruikt om mee te vergelijken. SIP-verzoeken die de header bevatten, samen met de opgegeven waarde,
+	worden aan het opgegeven eindpunt gekoppeld. De header moet met een <b>:</b> worden opgegeven, zoals in <b>match_header = SIPHeader: value</b>.
+	De opgegeven SIP-headerwaarde kan een reguliere expressie zijn als de waarde de vorm <b>/ regex/</b> heeft.
+	Houd er rekening mee dat het gebruik van een regex kostbaar is, dus wees er zeker van dat u een regex nodig hebt om uw eindpunt te matchen.
+profiles_pjsip_transport_tls-ms-teams = TLS + MS Teams
+trunks.record = {vitalpbx.record}
+trunks.record.tooltip = Indien ja, worden alle gesprekken via deze trunk opgenomen. Dit geldt alleen voor uitgaande gesprekken.
+trunks.validation.ext_device_duplicated = De opgegeven trunkgebruikersnaam "{0}" wordt al gebruikt door het toestelapparaat "{1}."
+trunks.contact_header = Contactheader
+trunks.contact_header.tooltip = Forceer bij uitgaande verzoeken het gebruikersgedeelte van de Contact-header naar deze waarde.
+trunks.trust_id_inbound = Inkomende ID vertrouwen
+trunks.trust_id_inbound.tooltip =
+    Deze optie bepaalt of Asterisk identificatie van het eindpunt accepteert uit headers zoals P-Asserted-Identity of Remote-Party-ID.
+    Deze optie geldt zowel voor gesprekken die van het eindpunt komen als voor gesprekken die van Asterisk komen. Indien nee, wordt altijd de geconfigureerde Caller-ID gebruikt als
+    identiteit voor het eindpunt.
+trunks.trust_id_outbound = Uitgaande ID vertrouwen
+trunks.trust_id_outbound.tooltip = Indien "Ja", wordt de privé-identificatie-informatie (PAI & RPI) naar de provider verzonden bij anonieme gesprekken.
+trunks.inband_progress = Inband-voortgang
+trunks.inband_progress.tooltip = Indien "Ja", geeft het systeem overgaan aan met inband-voortgang.
+trunks.validation.pjsip.invalid_client_uri = De opgegeven "Client-URI" is ongeldig. Het formaat moet "sip:1234567890@sip.example.com" zijn.
+trunks.validation.pjsip.invalid_server_uri = De opgegeven "Server-URI" is ongeldig. Het formaat moet "sip:sip.example.com" zijn.
+trunks.validation.pjsip.invalid_contact = Het contact "{0}" heeft een ongeldig formaat. Het formaat moet "sip:sip.example.com" zijn.
+trunks.validation.pjsip.invalid_match = De waarde "{0}" in het veld "Overeenkomst" is ongeldig. U moet een geldig IP/domein opgeven.

@@ -1,0 +1,143 @@
+ai_assistants = AI-assistenten
+ai_api_keys = API-sleutels
+ai_tools = AI-tools
+menu.ai_assistants = {ai_assistants}
+menu.ai_api_keys  = {ai_api_keys}
+menu.ai_tools  = {ai_tools}
+ai_assistants.unlicensed = {sms.unlicensed}
+module.ai_api_keys = AI API-sleutels
+module.ai_assistants = {ai_assistants}
+module.ai_tools = {ai_tools}
+ai_assistants.description = {description}
+ai_assistants.description.tooltip = Een korte beschrijving om dit item te identificeren
+ai_assistants.api_key = {voice_hub.api_key}
+ai_assistants.api_key.tooltip = De API-sleutel die door OpenAI is verstrekt.
+ai_api_keys.general = {vitalpbx.general}
+ai_assistants.validation.no_description = Het veld "Beschrijving" is verplicht.
+ai_assistants.validation.duplicated_api_key = De "API-sleutel" moet uniek zijn.
+ai_assistants.validation.no_api_key = Het veld "API-sleutel" is verplicht.
+ai_assistants.validation.api_key_in_use = Dit API-sleutelitem kan niet worden verwijderd omdat het wordt gebruikt door de volgende AI-assistenten: "{0}".
+ai_assistants.general = {vitalpbx.general}
+ai_assistants.voice_profile = {recmanagement.voice_profile}
+ai_assistants.voice_profile.tooltip = De stem die wordt gebruikt om vragen van bellers te beantwoorden.
+ai_assistants.model = GPT-model
+ai_assistants.model.tooltip = Het GPT-model dat de assistent gebruikt.
+ai_assistants.name = Naam van de assistent
+ai_assistants.name.tooltip = De naam van de virtuele assistent.
+ai_assistants.instructions = Instructies voor de assistent
+ai_assistants.instructions.tooltip = De systeeminstructies die de assistent gebruikt.
+ai_assistants.max_interactions = Max. interacties
+ai_assistants.max_interactions.tooltip =
+    Het maximale aantal vragen dat de assistent mag beantwoorden voordat de beller naar de "Eindbestemming" wordt gestuurd.
+    Laat leeg voor geen limiet.
+ai_assistants.welcome_msg = Welkomstbericht
+ai_assistants.welcome_msg.tooltip =
+    Het eerste geluid dat de beller hoort voordat de interactie met de AI-assistent begint. Dit kan een algemeen
+    welkomstbericht bevatten evenals aanwijzingen over hoe met de AI-assistent om te gaan.
+ai_assistants.wait_msg = Wachtbericht
+ai_assistants.wait_msg.tooltip = Het geluid dat de beller hoort terwijl de AI-assistent de informatie verwerkt.
+ai_assistants.inaudible_msg = Onverstaanbaar bericht
+ai_assistants.inaudible_msg.tooltip =
+    Het geluid om de beller te informeren dat de AI-assistent niet heeft begrepen wat er is gezegd. Als de assistent
+    twee keer achter elkaar niet begrijpt wat de beller zegt, wordt het gesprek naar de "Eindbestemming" gestuurd.
+ai_assistants.listening_msg = Luistertoon
+ai_assistants.listening_msg.tooltip = Een geluid of toon die aangeeft dat de virtuele assistent luistert.
+ai_assistants.final_destination = Eindbestemming
+ai_assistants.max_silence = Max. stilte
+ai_assistants.max_silence.tooltip = De maximale stilte in seconden voordat de vraag van de beller wordt verwerkt.
+ai_assistants.validation.field_required = Het veld "{0}" is verplicht.
+ai_assistants.validation.duplicated_name = Er bestaat al een assistent met dezelfde naam.
+ai_assistants.validation.invalid_api_key = De geselecteerde API-sleutel is ongeldig.
+ai_assistants.validation.invalid_model = Het geselecteerde GPT-model is ongeldig.
+ai_assistants.validation.invalid_voice_profile = Het geselecteerde stemprofiel is ongeldig.
+ai_assistants.validation.min = De minimale waarde voor het veld "{0}" is "{1}."
+ai_assistants.validation.no_numeric = Het veld "{0}" vereist een geldig getal.
+ai_assistants.add_file = Bestand toevoegen
+ai_assistants.files = Bijgevoegde bestanden
+ai_assistants.created_at = Datum / tijd
+ai_assistants.file = Bestand
+ai_assistants.file.tooltip =
+    Bestand dat de AI-assistent gebruikt om vragen buiten het model te beantwoorden. Geldige bestandsformaten zijn docx, pdf, json, md en txt.
+ai_assistants.upload = Uploaden
+ai_assistants.no_file = U hebt geen bestand geselecteerd om te uploaden!
+ai_assistants.invalid_file = Het bestand "{0}" met het mimetype "{1}" is niet geldig!
+ai_assistants.file_successfully_added = Het bestand is succesvol aan deze agent toegevoegd.
+ai_assistants.file_successfully_removed = Het bestand is succesvol van deze agent verwijderd.
+ai_assistants.ask_a_question = Stel een vraag
+ai_assistants.question = Vraag
+ai_assistants.question.tooltip = Een vraag om de AI-agent te testen.
+ai_assistants.ask = Vragen
+ai_assistants.ask_another_question = Nog een vraag stellen
+ai_assistants.internal_directory = Intern telefoonboek
+ai_assistants.internal_directory.tooltip =
+    Afhankelijk van de geselecteerde waarden kunnen bellers vragen om te worden doorgeschakeld naar een specifiek toestel, wachtrij of belgroep. De zoekopdracht gebeurt op naam
+    of beschrijving.
+ai_assistants.id.extensions = {menu.extensions}
+ai_assistants.id.queues = {menu.queues}
+ai_assistants.id.ring_groups = {menu.ring_groups}
+ai_assistants.notifications_email = E-mailadressen voor meldingen
+ai_assistants.notifications_email.tooltip =
+    E-mailadressen om de gespreksamenvatting of gevraagde gegevens naartoe te sturen. Houd er rekening mee dat u de
+    AI moet instrueren om na afloop van het gesprek een e-mail te versturen.
+ai_assistants.temperature = Temperatuur
+ai_assistants.temperature.tooltip =
+    Welke sampling-temperatuur moet worden gebruikt, tussen 0 en 2. Hogere waarden zoals 0,8 maken de uitvoer willekeuriger, terwijl
+    lagere waarden zoals 0,2 deze gerichter en deterministischer maken.
+ai_assistants.validation.temperature.range =
+    U moet een geldige numerieke waarde tussen nul en twee opgeven voor het veld "Temperatuur".
+ai_tools.general = {vitalpbx.general}
+ai_tools.ai_api_key = {voice_hub.api_key}
+ai_tools.ai_api_key.tooltip = De API-sleutel die wordt gebruikt voor de functies die in deze module zijn ingeschakeld.
+ai_tools.voicemail_transcription = Transcriptie van voicemail
+ai_tools.voicemail_transcription.tooltip = Indien ingeschakeld, verschijnt er per toestel een selectievakje om transcriptie aan of uit te zetten.
+ai_tools.call_recordings_transcription = Transcriptie van gespreksopnamen
+ai_tools.call_recordings_transcription.tooltip = Indien ingeschakeld, verschijnt er in de CDR-module een pictogram om gespreksopnamen te transcriberen.
+ai_tools.validation.no_api_key = Geen API-sleutel geselecteerd. Kies een API-sleutel om de AI-transcriptiefuncties in te schakelen.
+ai_assistants.validation.api_key_in_use_by_tools = Deze API-sleutel kan niet worden verwijderd omdat deze momenteel door de module AI-tools wordt gebruikt.
+ai_tools.language = Taal
+ai_tools.language.tooltip =
+    Stelt de taal van de invoeraudio in voor transcriptie. De juiste taal kiezen verbetert de nauwkeurigheid van de transcriptie.
+    Als 'Auto' is geselecteerd, probeert de AI de taal automatisch te detecteren.
+ai_tools.auto = Auto
+ai_tools.temperature = Temperatuur
+ai_tools.temperature.tooltip =
+    Deze instelling past de variabiliteit van de transcriptieresultaten aan. Hogere waarden (bijv. 0,8) maken de transcriptie
+    creatiever en flexibeler, terwijl lagere waarden (bijv. 0,2) deze preciezer en consistenter maken. Als deze op 0 is ingesteld,
+    stemt de AI de instelling automatisch af voor optimale nauwkeurigheid.
+ai_tools.pbx_assistant = PBX-assistent
+ai_tools.pbx_assistant.tooltip =
+    Indien ingeschakeld, verschijnt er een chatbotpictogram in de bovenste navigatiebalk waarmee gebruikers kunnen chatten met een AI-assistent die gespecialiseerd is
+    in de PBX-configuraties.
+ai_tools.pbx_assistant.disable = De PBX-assistent is momenteel uitgeschakeld. Om deze in te schakelen, gaat u naar de module AI-tools.
+conversational_ai = Conversational AI
+menu.conversational_ai = {conversational_ai}
+module.conversational_ai = {conversational_ai}
+conversational_ai.general = {vitalpbx.general}
+conversational_ai.description = {ai_assistants.description}
+conversational_ai.description.tooltip = Een korte beschrijving
+conversational_ai.instructions = {ai_assistants.instructions}
+conversational_ai.instructions.tooltip =
+    De standaard systeeminstructies (d.w.z. het systeembericht) die aan modelaanroepen worden toegevoegd. Met dit veld kunt u het
+    model sturen naar gewenste antwoorden. Het model kan worden geïnstrueerd over inhoud en formaat van antwoorden (bijv. "wees extreem
+    beknopt", "doe vriendelijk", "hier zijn voorbeelden van goede antwoorden") en over audiogedrag (bijv. "spreek snel",
+    "breng emotie in je stem", "lach vaak"). Het is niet gegarandeerd dat het model de instructies volgt,
+    maar ze geven het model richting voor het gewenste gedrag.
+conversational_ai.api_key = {ai_assistants.api_key}
+conversational_ai.api_key.tooltip = {ai_assistants.api_key.tooltip}
+conversational_ai.model = {ai_assistants.model}
+conversational_ai.model.tooltip = Het te gebruiken GPT-model.
+conversational_ai.voice = Stem
+conversational_ai.voice.tooltip = De stem die de AI gebruikt om te antwoorden.
+conversational_ai.providers.twilio = Twilio
+conversational_ai.provider = Provider
+conversational_ai.provider.tooltip = De spraakprovider die de mediastream afhandelt voor naadloze bidirectionele communicatie in realtime.
+conversational_ai.webhook_url = Webhook-URL
+conversational_ai.webhook_url.tooltip = De webhook-URL die u in het portaal van uw VoIP-provider instelt.
+conversational_ai.url_copied = De webhook-URL staat nu op uw klembord!
+ai_assistants.transcription_model = Transcriptiemodel
+ai_assistants.transcription_model.tooltip = Het model dat wordt gebruikt om de audio van de beller om te zetten in tekst voordat deze naar AI-assistenten wordt gestuurd.
+ai_tools.transcription_model = {ai_assistants.transcription_model}
+ai_tools.transcription_model.tooltip = Het model dat wordt gebruikt om voicemailaudio om te zetten in tekst.
+ai_assistants.agent_unlinked =
+    De OpenAI-agent die aan dit item is gekoppeld, is verwijderd. Om AI-functies te blijven gebruiken, werkt u dit item bij om
+    een nieuwe OpenAI-agent aan te maken.

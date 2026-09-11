@@ -1,7 +1,7 @@
-menu.user_profile = Profile
-module.user_profile = My Profile
-user_profile = User Profile
+menu.user_profile = Profiel
+module.user_profile = Mijn profiel
+user_profile = Gebruikersprofiel
 user_profile.general = {users.general}
 user_profile.settings = {users.settings}
-users_profiles.select_all = Select All
-users_profiles.unselect_all = Unselect All
+users_profiles.select_all = Alles selecteren
+users_profiles.unselect_all = Selectie opheffen

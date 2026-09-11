@@ -1,39 +1,40 @@
-bulk_extensions.accountcode.tooltip =
-	Allows you to define the account code for each extension. You may use the reserved word <b>&#123;EXTENSION&#125;</b>
-	to use the extension as account code.
+menu.bulk_extensions = Toestellen in bulk
+module.bulk_extensions = {menu.bulk_extensions}
+bulk_extensions.general = {vitalpbx.general}
+bulk_extensions.range = Toestelbereik
+bulk_extensions.range.tooltip =
+	Definieert het bereik van toestellen dat u wilt aanmaken, bijv.: van 1000 tot 1400.
+	<b>Als een van de toestellen in het bereik al bestaat, wordt deze overgeslagen</b>.
 bulk_extensions.cos = {extensions.class_of_service_id}
 bulk_extensions.cos.tooltip = {extensions.class_of_service_id.tooltip}
-bulk_extensions.dev_technology = Devices Technology
-bulk_extensions.dev_technology.tooltip = Defines the technology of the device that will be assigned to each extension
-bulk_extensions.device_password = Devices Password
-bulk_extensions.device_password.tooltip =
-	It allows you to define a dynamic or fixed password for the generated devices. If blank, a random password will be set.
-	You may use the reserved word <b>&#123;EXTENSION&#125;</b> to make the extension number part of the password,
-	eg.: if the extension is 100 and you set the following value to this field <b>securepwd&#123;EXTENSION&#125;</b>, then, the password will be:
-	<b>securepwd100</b>
-bulk_extensions.features_password.tooltip =
-	Allows you to define the features password for each extension, if left blank, a random password will be generated.
-	You may use the reserved word <b>&#123;EXTENSION&#125;</b> to use the extension as features password.
-bulk_extensions.general = {vitalpbx.general}
-bulk_extensions.name_prefix = Name Prefix
-bulk_extensions.name_prefix.tooltip =
-	Allows you to define a prefix to use as part of the extension name, eg.: if you set the prefix value to Agent and
-	the extension is 200, the extension name will be <b>Agent 200</b>. If blank, the word <b>Extension</b> will be used as prefix
-bulk_extensions.range = Extensions Range
-bulk_extensions.range.tooltip =
-	Defines the range of extensions that you want to create, eg.: from 1000 to 1400.
-	<b>If any of the extensions in the range already exists will be skipped</b>.
-bulk_extensions.recording_types = Recording Calls
-bulk_extensions.recording_types.tooltip = Allows you to select which kind of calls will be recorded
-bulk_extensions.success = 	The extensions range have been processed successfully. <b>Created Extensions</b>: {0} | <b>Skipped Extensions</b>: {1}
-bulk_extensions.validation.invalid_f_password =
-	The features password contains invalid characters. Only numbers, asterisk symbol or reserved words are allowed
-bulk_extensions.validation.invalid_range = An invalid extension range have been provided
-bulk_extensions.validation.invalid_vm_password =
-	The voicemail password contains invalid characters. Only numbers, asterisk symbol or reserved words are allowed
-bulk_extensions.vm_enabled = Voicemail Enabled
+bulk_extensions.dev_technology = Apparaattechnologie
+bulk_extensions.dev_technology.tooltip  = Definieert de technologie van het apparaat dat aan elk toestel wordt toegewezen
+bulk_extensions.vm_enabled = Voicemail ingeschakeld
+bulk_extensions.recording_types = Gesprekken opnemen
+bulk_extensions.recording_types.tooltip = Hiermee kunt u selecteren welke soorten gesprekken worden opgenomen
 bulk_extensions.vm_password.tooltip =
-	Allows you to define the voicemail password for each extension, if left blank, the password will be the extension
-	number. You may use the reserved word <b>&#123;RANDOM&#125;</b> to generate a random password.
-menu.bulk_extensions = Bulk Extensions
-module.bulk_extensions = {menu.bulk_extensions}
+	Hiermee kunt u het voicemailwachtwoord voor elk toestel definiëren; als dit leeg blijft, is het wachtwoord het toestelnummer.
+	U kunt het gereserveerde woord <b>&#123;RANDOM&#125;</b> gebruiken om een willekeurig wachtwoord te genereren.
+bulk_extensions.accountcode.tooltip =
+	Hiermee kunt u de accountcode voor elk toestel definiëren. U kunt het gereserveerde woord <b>&#123;EXTENSION&#125;</b>
+	gebruiken om het toestel als accountcode te gebruiken.
+bulk_extensions.features_password.tooltip =
+	Hiermee kunt u het functiewachtwoord voor elk toestel definiëren; als dit leeg blijft, wordt een willekeurig wachtwoord gegenereerd.
+	U kunt het gereserveerde woord <b>&#123;EXTENSION&#125;</b> gebruiken om het toestel als functiewachtwoord te gebruiken.
+bulk_extensions.validation.invalid_range = Er is een ongeldig toestelbereik opgegeven
+bulk_extensions.validation.invalid_vm_password =
+	Het voicemailwachtwoord bevat ongeldige tekens. Alleen cijfers, het sterretje of gereserveerde woorden zijn toegestaan
+bulk_extensions.validation.invalid_f_password =
+	Het functiewachtwoord bevat ongeldige tekens. Alleen cijfers, het sterretje of gereserveerde woorden zijn toegestaan
+bulk_extensions.success =
+	Het toestelbereik is succesvol verwerkt. <b>Aangemaakte toestellen</b>: {0} | <b>Overgeslagen toestellen</b>: {1}
+bulk_extensions.name_prefix = Naamvoorvoegsel
+bulk_extensions.name_prefix.tooltip =
+	Hiermee kunt u een voorvoegsel definiëren als onderdeel van de toestelnaam, bijv.: als u het voorvoegsel Agent instelt en
+	het toestel 200 is, wordt de toestelnaam <b>Agent 200</b>. Indien leeg, wordt het woord <b>Toestel</b> als voorvoegsel gebruikt
+bulk_extensions.device_password = Apparaatwachtwoord
+bulk_extensions.device_password.tooltip =
+	Hiermee kunt u een dynamisch of vast wachtwoord voor de gegenereerde apparaten definiëren. Indien leeg, wordt een willekeurig wachtwoord ingesteld.
+	U kunt het gereserveerde woord <b>&#123;EXTENSION&#125;</b> gebruiken om het toestelnummer deel van het wachtwoord te maken,
+	bijv.: als het toestel 100 is en u dit veld instelt op <b>securepwd&#123;EXTENSION&#125;</b>, dan is het wachtwoord:
+	<b>securepwd100</b>
